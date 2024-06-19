@@ -1,0 +1,49 @@
+.table__container {
+  max-width: 2160px;
+  overflow-x: auto;
+  background: #f3f3f3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.table thead th {
+  background-color: #0080e8;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.action-icons {
+  display:ruby-base;
+  flex-direction: column;
+  gap: 10px;
+  align-items:center;
+  cursor:pointer;
+}
+
+.action-icons .fa-edit {
+  color: #ffa726;
+}
+
+.action-icons .fa-trash {
+  color: #ef5350;
+}
